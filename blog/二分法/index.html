@@ -3,7 +3,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>二分法</title>
     <meta charset="utf-8">
-    <meta name="description" content="Ladder@二分法模板">
+    <meta name="description" content="Ladder@二分法 - 行知">
     <meta name="author" content="行知">
     <link rel="canonical" href="https://xingzhimars.github.io/blog/%E4%BA%8C%E5%88%86%E6%B3%95/">
 
@@ -15,7 +15,6 @@
     <meta property="og:url" content="https://xingzhimars.github.io/blog/%E4%BA%8C%E5%88%86%E6%B3%95/">
   <meta property="og:site_name" content="行知">
   <meta property="og:title" content="二分法">
-  <meta property="og:description" content="二分法模板">
   <meta property="og:locale" content="zh">
   <meta property="og:type" content="article">
     <meta property="article:section" content="blog">
@@ -25,7 +24,6 @@
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="二分法">
-  <meta name="twitter:description" content="二分法模板">
 
 
 <script type="application/ld+json">
@@ -54,12 +52,12 @@
   "@type": "BlogPosting",
   "headline": "二分法",
   "name": "二分法",
-  "description": "二分法模板\n",
+  "description": "",
   "keywords": [
     
   ],
-  "articleBody": "二分法模板\n二分法有两个模板，使用模板一查找左端点，使用模板二查找右端点\n模板一：\nwhile (left \u003c right) { int mid = (left + right) \u003e\u003e 1; if (check(mid) \u003e= target) { right = mid; } else { left = mid + 1; } } 将check(mid)看成右手，target看成左手，这是个右手不断往左手靠近的过程，直到右手在左手的左侧，因此这是求左边界，此时的右手就是左边界 循环条件是 left \u003c right，不是 left \u003c= right 只有当 left = mid 时，才会在计算mid时加1 模板二：\nwhile (left \u003c right) { int mid = (left + right + 1) \u003e\u003e 1; if (check(mid) \u003c= target) { left = mid; } else { right = mid - 1; } } 将check(mid)看成是左手，target看成是右手，这是左手不断往右手靠近的过程，直到左手在右手的右侧，因此这是求右边界，此时的左手就是右边界 循环条件 left \u003c right，不是left \u003c= right 只有当 left = mid时，才会在计算mid时加1 ",
-  "wordCount" : "92",
+  "articleBody": "二分法有两个模板，使用模板一查找左端点，使用模板二查找右端点\n模板一：\nwhile (left \u003c right) { int mid = (left + right) \u003e\u003e 1; if (check(mid) \u003e= target) { right = mid; } else { left = mid + 1; } } 将check(mid)看成右手，target看成左手，这是个右手不断往左手靠近的过程，直到右手在左手的左侧，因此这是求左边界，此时的右手就是左边界 循环条件是 left \u003c right，不是 left \u003c= right 只有当 left = mid 时，才会在计算mid时加1 模板二：\nwhile (left \u003c right) { int mid = (left + right + 1) \u003e\u003e 1; if (check(mid) \u003c= target) { left = mid; } else { right = mid - 1; } } 将check(mid)看成是左手，target看成是右手，这是左手不断往右手靠近的过程，直到左手在右手的右侧，因此这是求右边界，此时的左手就是右边界 循环条件 left \u003c right，不是left \u003c= right 只有当 left = mid时，才会在计算mid时加1 ",
+  "wordCount" : "91",
   "inLanguage": "zh",
   "datePublished": "2025-01-25T02:04:15+08:00",
   "dateModified": "2025-01-25T02:04:15+08:00",
@@ -167,7 +165,7 @@
 
   <p>
   <small>
-    2025年1月25日&nbsp;· 92 字&nbsp;· 1 分钟</small>
+    2025年1月25日&nbsp;· 91 字&nbsp;· 1 分钟</small>
 
   
 <p>
@@ -176,9 +174,8 @@
     <nav id="TableOfContents"></nav>
   </div>
 
-  <section class="blog-content"><p>二分法模板</p>
-<p>二分法有两个模板，使用模板一查找左端点，使用模板二查找右端点</p>
-<p><img src="/images/binary_search.jpg" alt="二分法"></p>
+  <section class="blog-content"><p>二分法有两个模板，使用模板一查找左端点，使用模板二查找右端点</p>
+<p><img src="/images/binary_search.jpg" alt="binary_search"></p>
 <p>模板一：</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">while</span> (left <span style="color:#f92672">&lt;</span> right) {
 </span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">int</span> mid <span style="color:#f92672">=</span> (left <span style="color:#f92672">+</span> right) <span style="color:#f92672">&gt;&gt;</span> 1;
