@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>行知</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on 行知 created by </description>
+    <title>Algorithm on 行知</title>
+    <link>http://localhost:1313/tags/algorithm/</link>
+    <description>Recent content in Algorithm on 行知 created by </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Sat, 25 Jan 2025 20:03:41 +0800</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 25 Jan 2025 20:03:41 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/algorithm/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>排序</title>
       <link>http://localhost:1313/blog/%E6%8E%92%E5%BA%8F/</link>
